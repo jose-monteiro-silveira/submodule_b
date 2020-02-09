@@ -1,0 +1,102 @@
+<h1 class="title">Web Application <span>Firewall</span></h1>
+
+<a href="{% tl contact %}" class="orng-link button top-right" target="_new">Crie sua conta</a>
+
+<p>
+    Proteja suas aplicaçōes web desde ameaças <em>OWASP top 10</em> até ataques complexos no dia zero.
+</p>
+
+<p>
+    O <a href="{% tl documentation_products_web_application_firewall %}" class="orng-link underline" target="_new">Azion WAF</a> é um sistema de <em>scoring</em> que calcula uma pontuação para suas requisições e classifica as ameaças, permitindo o bloqueio com base na sensibilidade desejada.
+</p>
+
+<p class="gray-small-text">
+    <em>Os preços da tabela abaixo são referentes ao modelo “Acordo On Demand”. Se você deseja contratar o formato “Acordo Reserva de Capacidade”, <a href="{% tl contact %}" class="orng-link underline" target="_new">clique aqui</a> para falar com nossa equipe.</em>
+</p>
+
+<h2 class="medium-title-gray">Definição de preço <em>On Demand</em></h2>
+
+<p>Você será cobrado conforme o uso do produto, pela soma dos valores apurados para as métricas Requests, Rule Sets e Rules:</p>
+
+<h3 class="small-title-orange">Requests</h3>
+
+<p>É a soma total de requisições analisadas pelo WAF.</p>
+
+<div class="table-orange-gray last-line-orange small first-left-all-center">
+    <table>
+        <thead>
+            <tr>
+                <td>Requests (por 10.000)</td>
+                <td>Estados Unidos</td>
+                <td>Canadá</td>
+                <td>Europa</td>
+                <td>Brasil</td>
+                <td>América Latina</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Primeiro bilhão de requisiçōes / mês</td>
+                <td>0,025 USD</td>
+                <td>0,025 USD</td>
+                <td>0,025 USD</td>
+                <td>0,060 USD</td>
+                <td>0,108 USD</td>
+            </tr>
+
+            <tr>
+                <td>Próximos 4 bilhōes de requisiçōes / mês</td>
+                <td>0,024 USD</td>
+                <td>0,024 USD</td>
+                <td>0,024 USD</td>
+                <td>0,045 USD</td>
+                <td>0,081 USD</td>
+            </tr>
+
+            <tr>
+                <td>Próximos 15 bilhōes de requisiçōes / mês</td>
+                <td>0,022 USD</td>
+                <td>0,022 USD</td>
+                <td>0,022 USD</td>
+                <td>0,035 USD</td>
+                <td>0,063 USD</td>
+            </tr>
+
+            <tr>
+                <td>Acima de 20 bilhōes de requisiçōes /mês</td>
+                <td>0,018 USD</td>
+                <td>0,018 USD</td>
+                <td>0,018 USD</td>
+                <td>0,030 USD</td>
+                <td>0,054 USD</td>
+            </tr>
+
+        </tbody>
+    </table>
+</div>
+
+<h3 class="small-title-orange">Rule Sets</h3>
+
+<p>Este é o número de configurações do WAF, ou conjuntos de regras, que podem ser compartilhadas entre diferentes domínios.</p>
+
+<p>As primeiras 50 rule sets estão inclusas para todos os clientes. A partir desse volume, serão tarifados USD 200,00 por <em>rule set</em>.</p>
+
+<h3 class="small-title-orange">Rules</h3>
+
+<p>Rules é o número de regras criadas pelo cliente, tanto para liberação (regras em <em>whitelist</em>) quanto para bloqueio (regras em <em>blacklist</em>).</p>
+
+<p>As primeiras 200 rules estão inclusas para todos os clientes. A partir desse volume, serão tarifados USD 5,00 por <em>rule</em>.</p>
+
+<p class="gray-small-text">
+    <em>Atenção: todos os valores apresentados são exibidos em dólares americanos (USD).</em>
+</p>
+
+<h2 class="medium-title-gray">Exemplo de definição de preço</h2>
+
+<p>Se suas aplicações receberam, em 1 mês, 3 bilhões de requests provenientes dos Estados Unidos, e suas configurações de WAF se encontram dentro dos limites de rule sets e rules, o valor será calculado da seguinte forma:</p>
+
+<p>O primeiro bilhão de requests será tarifado ao preço de 0,025 USD para cada 10.000 requests. Portanto, (1.000.000.000 / 10.000) x 0,025 USD = 2.500 USD.</p>
+
+<p>Os próximos 2 bilhões de requests serão tarifadas pelo preço de 0,024 USD. Assim, (2.000.000.000 / 10.000) x 0,024 USD = 4.800 USD.</p>
+
+<p>O valor total a ser pago no mês será de 7.300 USD, de acordo com a simulação.</p>
